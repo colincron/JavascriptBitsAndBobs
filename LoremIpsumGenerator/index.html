@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="inputContainer">
+        <h2>Lorem Ipsum Generator</h2>
+        
+        <div id="paraContainer">
+        <p><strong>Paragraphs:</strong></p>
+        
+        <div class="slidecontainer">
+            <input type="range" min="1" max="25" value="5" class="slider" id="paraRange">
+        </div>
+        
+        <div id="paraNum"></div>
+        </div>
+
+        <div id="wordsPerContainer">
+        <p><strong>Words Per Paragraph:</strong></p>
+        
+        <div class="slidecontainer">
+            <input type="range" min="15" max="100" value="50" class="slider" id="wordsPerRange">
+        </div>
+        
+        <div id="wordsNum"></div>
+        </div>
+        <br>
+        <button type="submit">Generate Lorem Ipsum</button>
+    </div>
+    
+    <div id="outputContainer">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
